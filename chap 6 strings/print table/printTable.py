@@ -1,6 +1,7 @@
 tableData = [['apples', 'oranges', 'cherries', 'banana'],
 ['Alice', 'Bob', 'Carol', 'David'],
-['dogs', 'cats', 'moose', 'goose']]
+['dogs', 'cats', 'moose', 'goose'],
+['beans', 'celery', 'carrots', 'artichokes']]
 
 # 1. get length of longest string in each array
 # 2. print each array accordingly with rjust()
@@ -20,7 +21,7 @@ def printTable (arr):
     for i in range(len(colWidths)):
         colWidths[i] = findLongest(arr[i])
 
-    for i in range(arrlength+1):
+    for i in range(arrlength):
         noline = ' '
         for j in range(arrlength):
             if j == arrlength-1:
