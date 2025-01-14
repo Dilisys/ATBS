@@ -3,9 +3,6 @@ tableData = [['apples', 'oranges', 'cherries', 'banana'],
 ['dogs', 'cats', 'moose', 'goose'],
 ['beans', 'celery', 'carrots', 'artichokes']]
 
-# 1. get length of longest string in each array
-# 2. print each array accordingly with rjust()
-
 def findLongest (arr):
     longest = 0;
     for string in arr:
